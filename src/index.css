@@ -1,27 +1,54 @@
-.counter-container {
-  text-align: center;
+body {
   font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff9a9e, #fecfef);
 }
 
-.count-display {
-  font-size: 10em;
-  margin-top: 0;
-  margin-bottom: 50px;
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.322);
+  border: 2px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 400px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  
 }
 
-.counter-button {
-  width: 150px;
-  height: 50px;
-  font-size: 1.5em;
+h1 {
+  margin: 50px;
+  font-size: 3rem;
+  color: #6c5b7b;
+}
+
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  border-radius: 25%;
+  border: 1px solid #000;
+}
+
+.color-select {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 2rem;
   font-weight: bold;
-  margin: 0px 5px;
-  background-color: hsl(197, 100%, 58%);
-  color: #fff;
-  border: none;
-  border-radius: .5rem;
-  cursor: pointer;
+  color: #6c5b7b;
+  
 }
 
-.counter-button:hover {
-  background-color: hsl(197, 100%, 48%);
+input {
+  width: 250px;
+  height: 50px;
+  border: 2px solid #000;
+  border-radius: 10px;
 }

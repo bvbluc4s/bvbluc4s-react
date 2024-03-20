@@ -1,12 +1,12 @@
 import './App.css';
-import Counter from './components/Counter.jsx';
+import ColorPicker from './components/ColorPicker';
 
 
 function App() {
 
   return (
     <div>
-      <Counter />
+      <ColorPicker />
     </div>
   )
 };
